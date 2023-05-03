@@ -8,8 +8,11 @@
     */
 
     //ENTRADA
-
-
+    const quantokmpercorre=Number(prompt("quantos quilômetros a motocicleta consegue percorrer com cada litro de combustível?"))
+    const quilometragem=Number(prompt("qual é a quilometragem q ja percorreu?"))
+    const totaldelitros= (quilometragem /quantokmpercorre);
+    const totalcustorevisao= ( quilometragem / 2000 * 200)
+    alert (` a quantidade de litros consumidos e de ${ totaldelitros} e o total a a pagar é de R$ ${totalcustorevisao.toFixed(2)}`)
     //PROCESSAMENTO
 
 
